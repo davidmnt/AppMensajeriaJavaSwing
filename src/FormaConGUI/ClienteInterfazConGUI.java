@@ -40,6 +40,7 @@ public class ClienteInterfazConGUI {
 
     private void sendMessage(String message) {
         out.println(message);
+        logArea.append("You: " + message + "\n");
     }
 
     private void connectToServer(JTextArea chatArea) {
